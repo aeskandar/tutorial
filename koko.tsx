@@ -5,6 +5,7 @@ import './style/game.css'
 
 interface IGameState {
     lasthistory: string;
+    newHistory: number;
   history : {
     squares : string[]
   }[],
