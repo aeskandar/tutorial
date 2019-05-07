@@ -4,6 +4,7 @@ import Board from './Board';
 import './style/game.css'
 
 interface IGameState {
+    lasthistory: string;
   history : {
     squares : string[]
   }[],
